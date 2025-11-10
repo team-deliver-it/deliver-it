@@ -1,9 +1,10 @@
 package com.sparta.deliverit.review.domain.entity;
 
-import com.sparta.deliverit.order.domain.entity.Order;
-import com.sparta.deliverit.review.domain.vo.Review;
-import com.sparta.deliverit.review.domain.vo.Star;
-import com.sparta.deliverit.user.domain.entity.User;
+import com.deliverit.order.domain.entity.Order;
+import com.deliverit.review.domain.entity.OrderReview;
+import com.deliverit.review.domain.vo.Review;
+import com.deliverit.review.domain.vo.Star;
+import com.deliverit.user.domain.entity.User;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

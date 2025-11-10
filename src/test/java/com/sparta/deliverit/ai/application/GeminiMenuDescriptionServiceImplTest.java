@@ -1,11 +1,12 @@
 package com.sparta.deliverit.ai.application;
 
+import com.deliverit.ai.application.GeminiMenuDescriptionServiceImpl;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.JsonNodeFactory;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.sparta.deliverit.ai.domain.entity.AiMenuDescription;
-import com.sparta.deliverit.ai.domain.repository.AiMenuDescriptionRepository;
+import com.deliverit.ai.domain.entity.AiMenuDescription;
+import com.deliverit.ai.domain.repository.AiMenuDescriptionRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

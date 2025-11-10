@@ -1,15 +1,16 @@
 package com.sparta.deliverit.restaurant.infrastructure.repository;
 
-import com.sparta.deliverit.global.config.AuditingConfig;
-import com.sparta.deliverit.global.config.QuerydslConfig;
-import com.sparta.deliverit.restaurant.domain.entity.Restaurant;
-import com.sparta.deliverit.restaurant.domain.model.PageSize;
-import com.sparta.deliverit.restaurant.domain.model.RestaurantCategory;
-import com.sparta.deliverit.restaurant.domain.model.RestaurantStatus;
-import com.sparta.deliverit.restaurant.domain.vo.RestaurantRating;
-import com.sparta.deliverit.restaurant.presentation.dto.RestaurantListResponseDto;
-import com.sparta.deliverit.user.domain.entity.User;
-import com.sparta.deliverit.user.domain.repository.UserRepository;
+import com.deliverit.global.config.AuditingConfig;
+import com.deliverit.global.config.QuerydslConfig;
+import com.deliverit.restaurant.domain.entity.Restaurant;
+import com.deliverit.restaurant.domain.model.PageSize;
+import com.deliverit.restaurant.domain.model.RestaurantCategory;
+import com.deliverit.restaurant.domain.model.RestaurantStatus;
+import com.deliverit.restaurant.domain.vo.RestaurantRating;
+import com.deliverit.restaurant.infrastructure.repository.RestaurantRepository;
+import com.deliverit.restaurant.presentation.dto.RestaurantListResponseDto;
+import com.deliverit.user.domain.entity.User;
+import com.deliverit.user.domain.repository.UserRepository;
 
 import jakarta.persistence.EntityManager;
 import org.hibernate.Session;
@@ -29,11 +30,9 @@ import java.util.Arrays;
 import java.util.EnumSet;
 import java.util.Set;
 
-import static com.sparta.deliverit.restaurant.domain.model.RestaurantCategory.*;
-import static com.sparta.deliverit.restaurant.domain.model.RestaurantStatus.*;
-import static com.sparta.deliverit.restaurant.domain.model.SortType.CREATED_AT;
-import static com.sparta.deliverit.restaurant.domain.model.SortType.RATING;
-import static com.sparta.deliverit.user.domain.entity.UserRoleEnum.OWNER;
+import static com.deliverit.restaurant.domain.model.SortType.CREATED_AT;
+import static com.deliverit.restaurant.domain.model.SortType.RATING;
+import static com.deliverit.user.domain.entity.UserRoleEnum.OWNER;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DataJpaTest

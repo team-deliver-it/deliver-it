@@ -1,11 +1,11 @@
 package com.sparta.deliverit.restaurant.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sparta.deliverit.restaurant.presentation.dto.RestaurantInfoRequestDto;
-import com.sparta.deliverit.restaurant.presentation.dto.RestaurantInfoResponseDto;
-import com.sparta.deliverit.restaurant.domain.model.RestaurantCategory;
-import com.sparta.deliverit.restaurant.domain.model.RestaurantStatus;
-import com.sparta.deliverit.restaurant.presentation.controller.RestaurantController;
+import com.deliverit.restaurant.presentation.dto.RestaurantInfoRequestDto;
+import com.deliverit.restaurant.presentation.dto.RestaurantInfoResponseDto;
+import com.deliverit.restaurant.domain.model.RestaurantCategory;
+import com.deliverit.restaurant.domain.model.RestaurantStatus;
+import com.deliverit.restaurant.presentation.controller.RestaurantController;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -20,10 +20,10 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-import static com.sparta.deliverit.restaurant.domain.model.RestaurantCategory.KOREAN_FOOD;
-import static com.sparta.deliverit.restaurant.domain.model.RestaurantCategory.WESTERN_FOOD;
-import static com.sparta.deliverit.restaurant.domain.model.RestaurantStatus.CLOSED;
-import static com.sparta.deliverit.restaurant.domain.model.RestaurantStatus.OPEN;
+import static com.deliverit.restaurant.domain.model.RestaurantCategory.KOREAN_FOOD;
+import static com.deliverit.restaurant.domain.model.RestaurantCategory.WESTERN_FOOD;
+import static com.deliverit.restaurant.domain.model.RestaurantStatus.CLOSED;
+import static com.deliverit.restaurant.domain.model.RestaurantStatus.OPEN;
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.user;
