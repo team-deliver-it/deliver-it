@@ -1,6 +1,6 @@
 package com.sparta.deliverit.anything.softedete.example;
 
-import com.sparta.deliverit.global.entity.BaseEntity;
+import com.deliverit.global.entity.BaseEntity;
 import jakarta.persistence.*;
 import org.hibernate.annotations.SQLDelete;
 

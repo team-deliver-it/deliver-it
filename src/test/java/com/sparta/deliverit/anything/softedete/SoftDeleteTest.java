@@ -1,6 +1,6 @@
 package com.sparta.deliverit.anything.softedete;
 
-import com.sparta.deliverit.global.config.AuditingConfig;
+import com.deliverit.global.config.AuditingConfig;
 import com.sparta.deliverit.anything.softedete.example.TestEntity;
 import com.sparta.deliverit.anything.softedete.example.TestEntityRepository;
 import jakarta.persistence.EntityManager;

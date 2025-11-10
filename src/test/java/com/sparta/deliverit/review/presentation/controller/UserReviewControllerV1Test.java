@@ -1,7 +1,8 @@
 package com.sparta.deliverit.review.presentation.controller;
 
-import com.sparta.deliverit.review.application.service.UserReviewService;
-import com.sparta.deliverit.review.application.service.dto.OrderReviewInfo;
+import com.deliverit.review.application.service.UserReviewService;
+import com.deliverit.review.application.service.dto.OrderReviewInfo;
+import com.deliverit.review.presentation.controller.UserReviewControllerV1;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;

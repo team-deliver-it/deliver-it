@@ -1,10 +1,11 @@
 package com.sparta.deliverit.review.presentation.controller;
 
+import com.deliverit.review.presentation.controller.OrderReviewControllerV1;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sparta.deliverit.review.application.service.OrderReviewService;
-import com.sparta.deliverit.review.application.service.dto.OrderReviewInfo;
-import com.sparta.deliverit.review.presentation.dto.request.CreateOrderReviewRequest;
-import com.sparta.deliverit.review.presentation.dto.request.UpdateReviewRequest;
+import com.deliverit.review.application.service.OrderReviewService;
+import com.deliverit.review.application.service.dto.OrderReviewInfo;
+import com.deliverit.review.presentation.dto.request.CreateOrderReviewRequest;
+import com.deliverit.review.presentation.dto.request.UpdateReviewRequest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;

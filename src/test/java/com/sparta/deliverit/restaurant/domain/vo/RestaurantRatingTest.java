@@ -1,7 +1,8 @@
 package com.sparta.deliverit.restaurant.domain.vo;
 
-import com.sparta.deliverit.review.domain.vo.Review;
-import com.sparta.deliverit.review.domain.vo.Star;
+import com.deliverit.restaurant.domain.vo.RestaurantRating;
+import com.deliverit.review.domain.vo.Review;
+import com.deliverit.review.domain.vo.Star;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
