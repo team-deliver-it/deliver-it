@@ -1,13 +1,14 @@
 package com.sparta.deliverit.review.application.service;
 
-import com.sparta.deliverit.order.domain.entity.Order;
-import com.sparta.deliverit.order.infrastructure.OrderRepository;
-import com.sparta.deliverit.restaurant.domain.entity.Restaurant;
-import com.sparta.deliverit.review.application.service.dto.OrderReviewCommand;
-import com.sparta.deliverit.review.domain.entity.OrderReview;
-import com.sparta.deliverit.review.infrastructure.repository.OrderReviewRepository;
-import com.sparta.deliverit.user.domain.entity.User;
-import com.sparta.deliverit.user.domain.repository.UserRepository;
+import com.deliverit.order.domain.entity.Order;
+import com.deliverit.order.infrastructure.OrderRepository;
+import com.deliverit.restaurant.domain.entity.Restaurant;
+import com.deliverit.review.application.service.OrderReviewService;
+import com.deliverit.review.application.service.dto.OrderReviewCommand;
+import com.deliverit.review.domain.entity.OrderReview;
+import com.deliverit.review.infrastructure.repository.OrderReviewRepository;
+import com.deliverit.user.domain.entity.User;
+import com.deliverit.user.domain.repository.UserRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

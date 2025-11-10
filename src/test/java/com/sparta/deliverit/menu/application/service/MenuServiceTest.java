@@ -1,16 +1,17 @@
 package com.sparta.deliverit.menu.application.service;
 
-import com.sparta.deliverit.global.exception.MenuException;
-import com.sparta.deliverit.global.exception.RestaurantException;
-import com.sparta.deliverit.menu.domain.entity.Menu;
-import com.sparta.deliverit.menu.domain.entity.MenuStatus;
-import com.sparta.deliverit.menu.domain.repository.MenuRepository;
-import com.sparta.deliverit.menu.presentation.dto.MenuCreateRequestDto;
-import com.sparta.deliverit.menu.presentation.dto.MenuResponseDto;
-import com.sparta.deliverit.menu.presentation.dto.MenuUpdateRequestDto;
-import com.sparta.deliverit.restaurant.domain.entity.Restaurant;
-import com.sparta.deliverit.restaurant.domain.model.RestaurantStatus;
-import com.sparta.deliverit.restaurant.infrastructure.repository.RestaurantRepository;
+import com.deliverit.global.exception.MenuException;
+import com.deliverit.global.exception.RestaurantException;
+import com.deliverit.menu.application.service.MenuService;
+import com.deliverit.menu.domain.entity.Menu;
+import com.deliverit.menu.domain.entity.MenuStatus;
+import com.deliverit.menu.domain.repository.MenuRepository;
+import com.deliverit.menu.presentation.dto.MenuCreateRequestDto;
+import com.deliverit.menu.presentation.dto.MenuResponseDto;
+import com.deliverit.menu.presentation.dto.MenuUpdateRequestDto;
+import com.deliverit.restaurant.domain.entity.Restaurant;
+import com.deliverit.restaurant.domain.model.RestaurantStatus;
+import com.deliverit.restaurant.infrastructure.repository.RestaurantRepository;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -23,8 +24,7 @@ import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
 
-import static com.sparta.deliverit.global.response.code.MenuResponseCode.*;
-import static com.sparta.deliverit.global.response.code.RestaurantResponseCode.RESTAURANT_NOT_FOUND;
+import static com.deliverit.global.response.code.RestaurantResponseCode.RESTAURANT_NOT_FOUND;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.junit.jupiter.api.Assertions.*;

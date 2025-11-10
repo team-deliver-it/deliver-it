@@ -1,5 +1,6 @@
 package com.sparta.deliverit.review.domain.vo;
 
+import com.deliverit.review.domain.vo.Star;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
